@@ -1,6 +1,9 @@
 
 /* extra small device */
  @media (max-width:575.98px){ 
+    .icon_list ul {
+        gap: 18px;
+    }
     .nav ul li a {
         display: flex;
         justify-content: flex-end;
@@ -69,6 +72,13 @@
     .f_icon i {
         font-size: 30px;
     }
+    .c_form {
+        height: 40px;
+    }
+    .button_s {
+        height: 40px;
+
+    }
     footer {
         text-align: center;
     }
@@ -124,6 +134,13 @@
     .fo_text1 {
         text-align: center;
         margin-bottom: 30px;
+    }
+    .c_form {
+        height: 45px;
+    }
+    .button_s {
+        height: 45px;
+
     }
     footer {
         text-align: center;
